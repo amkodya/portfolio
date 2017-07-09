@@ -1,0 +1,86 @@
+/* Ashley Kodya Portfolio */
+/* style.css */
+body {
+	background: url("../images/bg.png") 50% 95% no-repeat, url("../images/gradient.png") left top no-repeat;
+	background-size: 100% 97%;
+	background-color: #e1e8f0;
+}
+
+/* -------------------------------------- NAME + TITLES -------------------------------------- */
+
+h1, h2, h3 {
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 6em;
+	text-transform: uppercase;
+	color: #292929;
+	/* text-shadow: 2px 3px 8px #000000; */
+	text-align: center;
+	margin: auto;
+}
+h1 {
+	margin-top: 1%;
+}
+h2:nth-of-type(1) {
+	margin-left: 27.6%;
+}
+h2, h3 {
+	font-size: 1.5em;
+	color: #e62739;
+	display: inline;
+}
+h3 {
+	color: #104D7B;
+}
+
+/* -------------------------------------- NAV BAR -------------------------------------- */
+
+.navbar {
+	background: rgb(110, 211, 207);
+	font-family: 'Oswald', sans-serif;
+	border: none;
+}
+.nav.navbar-nav {
+	display: inline-block;
+	margin-left: 23%;
+}
+.nav.navbar-nav li a {
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+/* -------------------------------------- ABOUT.HTML -------------------------------------- */
+
+#about {
+	background: url("../images/gradient.png") left top no-repeat;
+	background-color: #e1e8f0;
+	background-size: 100%;
+}
+#aboutme, #resume {
+	background-color: #9068be;
+	font-family: "Carrois Gothic", sans-serif;
+	font-size: 2em;
+	color: #ffffff;
+	width: 52%;
+	height: 80%;
+	position: fixed;
+	top: 20%;
+ 	left: 24.35%;
+ 	padding: 3%;
+}
+
+/* -------------------------------------- RESUME.HTML -------------------------------------- */
+
+#resume {
+	font-size: .8em;
+	 overflow-y: scroll;
+}
+#resume b {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
